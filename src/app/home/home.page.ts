@@ -27,7 +27,7 @@ export class HomePage implements OnInit {
         ctx.beginPath();
         ctx.arc(X, Y, R, 0, 2 * Math.PI, false);
         ctx.lineWidth = 3;
-        ctx.strokeStyle = '#FF0000';
+        ctx.strokeStyle = 'rgba(65,255,85,0.78)';
         ctx.stroke();
       } else {
         console.error('err');
